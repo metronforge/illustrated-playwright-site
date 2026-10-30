@@ -1,1 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><rect width="32" height="32" rx="6" fill="#1a1d21"/><path d="M8 9h7v15H8zm9 0h7v15h-7z" fill="none" stroke="#f08a3c" stroke-width="2"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="MetronForge">
+  <style>
+    .bg { fill: #0f1319; }
+    .mark { stroke: #f08a3c; }
+
+    @media (prefers-color-scheme: light) {
+      .bg { fill: #ffffff; }
+      .mark { stroke: #c25a10; }
+    }
+  </style>
+  <rect class="bg" width="64" height="64" rx="13" />
+  <g class="mark" fill="none" stroke-width="7" stroke-linecap="round">
+    <path d="M14 47 H50" />
+    <path d="M18 47 V25" />
+    <path d="M32 47 V33" />
+    <path d="M46 47 V25" />
+  </g>
+</svg>
