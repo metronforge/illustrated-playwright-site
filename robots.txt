@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://illustrated-playwright.metronforge.dev/sitemap-index.xml
